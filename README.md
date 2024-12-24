@@ -1,11 +1,17 @@
 # Blazor Nedir?
 
-Blazor, web uygulamaları geliştirmek için kullanılan bir framework’tür. .NET ekosistemi içinde çalışır ve C# dilini kullanarak interaktif web uygulamaları oluşturmanı sağlar.
+Blazor, modern web uygulamaları geliştirmek için kullanılan bir framework'tür. .NET ekosistemi içinde yer alır ve geliştiricilere C# dilini kullanarak interaktif ve zengin özelliklere sahip web uygulamaları oluşturma imkânı tanır.
 
-- **Özellikleri**
-    - C# ve .NET ile istemci tarafı uygulamalar yazma.
-    - WebAssembly(WASM) veya SignalR üzerinden sunucu tarafı çalışabilme.
-    - .NET ile tam entegrasyon.
+Ayrıca, Blazor web uygulamalarını geliştirirken JavaScript'e alternatif olarak C# dilini kullanarak geliştiricilerin daha önce bildikleri bir dil ve aracı kullanmalarını sağlar. Bu özellik, hem frontend hem de backend için aynı dili kullanarak daha tutarlı ve verimli bir geliştirme süreci sunar.
+
+Blazor'un adı, iki temel bileşeni birleştirerek oluşturulmuştur: "Browser" ve ".NET Razor". Razor, Blazor'un dinamik içerik oluşturmak için kullandığı syntax'tır. Bu yaklaşım, .NET geliştiricilerinin zaten aşina olduğu bir ortamda rahat çalışmasına olanak tanır.
+
+- **Blazor'un Temel Özellikleri**
+
+    - **C# ve .NET Kullanımı**: İstemci tarafı uygulamaları yazmak için JavaScript yerine C# kullanılabilir. Bu sayede geliştiriciler, var olan .NET kütüphanelerini ve kodlarını kullanmaya devam edebilir.
+    - **.NET Ekosistemi ile Entegrasyon:** Şimdiye kadar yazılmış olan .NET kütüphaneleri, NuGet paketleri ve Entity Framework gibi teknolojiler kolayca kullanılabilir.
+    - **Zengin Kullanıcı Arayüzleri:** Blazor, Razor bileşenlerini kullanarak dinamik ve zengin içerik oluşturmayı kolaylaştırır. State management gibi modern geliştirme kavramlarını destekler.
+    - **Open Source ve Topluluk Desteği:** Blazor, Microsoft'un desteklediği açık kaynak kodlu bir projedir ve büyük bir topluluk tarafından geliştirilmeye devam etmektedir.
 
 - - -
 
