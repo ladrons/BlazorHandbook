@@ -13,7 +13,6 @@ Blazor'un adı, iki temel bileşeni birleştirerek oluşturulmuştur: "Browser" 
     - **Zengin Kullanıcı Arayüzleri:** Blazor, Razor bileşenlerini kullanarak dinamik ve zengin içerik oluşturmayı kolaylaştırır. State management gibi modern geliştirme kavramlarını destekler.
     - **Open Source ve Topluluk Desteği:** Blazor, Microsoft'un desteklediği açık kaynak kodlu bir projedir ve büyük bir topluluk tarafından geliştirilmeye devam etmektedir.
 
-- - -
 
 ## ⚡️Blazor Çalışma Prensibi (Client-Side / Server Side)
 
@@ -26,3 +25,11 @@ Blazor, iki farklı çalışma modu sunar. Bu iki mod, uygulamanın çalıştır
 **🟢 Avantajları**: Sunucu ile sürekli bağlantı kurmak gerekmez, uygulama çevrimdışı çalışabilir ve sayfa yüklemeleri daha hızlı gerçekleşebilir.
 
 **🔴 Dezavantajları**: İlk yükleme süresi daha uzundur çünkü tüm uygulama dosyalarının tarayıcıya indirilmesi gerekir. Ayrıca, cihazın işlem gücüne bağlı olarak performans değişiklikleri yaşanabilir.
+
+### 🟣 Server-Side (Blazor Server)
+
+**⚙️ Çalışma Mantığı**: Blazor Server, sunucuda çalışır ve istemci ile sunucu arasındaki iletişim, SignalR aracılığıyla gerçek zamanlı olarak sağlanır. Tarayıcı, yalnızca görüntülenen arayüzü ve olayları işler; geri kalan her şey sunucuda gerçekleşir.
+
+**🟢 Avantajları**: Uygulama yüklemesi hızlıdır, istemci tarafındaki kaynakları fazla tüketmez ve daha az tarayıcı desteği gerektirir.
+
+**🔴 Dezavantajları**: İstemci ve sunucu arasında sürekli bir bağlantı ihtiyacı vardır, bu yüzden bağlantı kesilirse uygulama çalışmaz hale gelebilir. Ayrıca, yüksek kullanıcı sayısında sunucu yükü artabilir.
