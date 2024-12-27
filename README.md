@@ -33,3 +33,11 @@ Blazor, iki farklı çalışma modu sunar. Bu iki mod, uygulamanın çalıştır
 **🟢 Avantajları**: Uygulama yüklemesi hızlıdır, istemci tarafındaki kaynakları fazla tüketmez ve daha az tarayıcı desteği gerektirir.
 
 **🔴 Dezavantajları**: İstemci ve sunucu arasında sürekli bir bağlantı ihtiyacı vardır, bu yüzden bağlantı kesilirse uygulama çalışmaz hale gelebilir. Ayrıca, yüksek kullanıcı sayısında sunucu yükü artabilir.
+
+### 🟣 Web App (Kombine Kullanım)
+
+**⚙️ Çalışma Mantığı**: Blazor Web App, hem client-side hem de server-side özelliklerini tek bir projede birleştirir. Bu sayede uygulama, kullanıcıya ve kullanım senaryosuna göre iki çalışma modundan birini seçebilir.
+
+**🟢 Avantajları**: Uygulamanın belirli kısımlarını istemci tarafında çalıştırarak performansı artırabilir, diğer kısımlarını ise sunucu üzerinde çalıştırarak güvenlik ve veri işleme gibi ihtiyaçları karşılayabilir. Kullanıcının bağlantı durumuna ve cihaz performansına göre otomatik esneklik sunar.
+
+**🔵 Kullanım Durumu**: Karmaşık ve farklı performans gereksinimleri olan projeler için uygundur, örneğin, veri yoğunluğu yüksek işlemler için sunucu tarafı kullanılabilirken, kullanıcı etkileşimleri client-side çalışabilir.
