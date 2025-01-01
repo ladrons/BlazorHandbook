@@ -41,3 +41,26 @@ Blazor, iki farklı çalışma modu sunar. Bu iki mod, uygulamanın çalıştır
 **🟢 Avantajları**: Uygulamanın belirli kısımlarını istemci tarafında çalıştırarak performansı artırabilir, diğer kısımlarını ise sunucu üzerinde çalıştırarak güvenlik ve veri işleme gibi ihtiyaçları karşılayabilir. Kullanıcının bağlantı durumuna ve cihaz performansına göre otomatik esneklik sunar.
 
 **🔵 Kullanım Durumu**: Karmaşık ve farklı performans gereksinimleri olan projeler için uygundur, örneğin, veri yoğunluğu yüksek işlemler için sunucu tarafı kullanılabilirken, kullanıcı etkileşimleri client-side çalışabilir.
+
+## ⚡️Blazor Bileşenleri (Components)
+
+Bileşenler,  Blazor’da uygulamanın görsel parçalarını oluşturan bağımsız birimlerden oluşur. Bileşenler, `.razor` uzantılı dosyalar olarak tanımlanır ve HTML, CSS, ve C# dillerini bir araya getirerek çalışır. Blazor bileşenleri, yeniden kullanılabilir yapılar olarak tasarlanmıştır ve bileşenler arasında veri paylaşımı yapılabilir.
+
+- **Özellikler**
+    - Her bileşen kendi içinde bağımsızdır.
+    - Bileşenler, veri bağlama, olay işleme gibi özelliklere sahiptir.
+
+🌀 Temel Kod Yapısı
+```razor
+<h3>Merhaba, Blazor!</h3>
+
+<button @onclick="HandleClick">Tıkla</button>
+
+@code {
+    private void HandleClick()
+    {
+        // Butona tıklandığında gerçekleştirilecek işlemler
+    }
+}
+```
+Blazor bileşenlerini tanımlarken `Partial Class` ve `CSS Isolation` özellikleriyle düzenli ve esnek bileşen yapıları oluşturmak mümkündür.
