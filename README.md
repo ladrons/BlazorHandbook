@@ -64,3 +64,14 @@ Bileşenler,  Blazor’da uygulamanın görsel parçalarını oluşturan bağım
 }
 ```
 Blazor bileşenlerini tanımlarken `Partial Class` ve `CSS Isolation` özellikleriyle düzenli ve esnek bileşen yapıları oluşturmak mümkündür.
+
+🟪 Partial Class ile Kodları Ayırmak
+
+Blazor bileşenlerinin kodları, `.razor` dosyasında yazılabildiği gibi, Partial Class kullanarak bileşen kodunu daha düzenli hale getirebilir ve C# mantıksal kodunu ayrı bir `.cs` dosyasında saklayabilirsin.
+
+> *Bu yöntem, özellikle bileşen kodu büyüdüğünde okunabilirliği artırır ve bileşeni yönetmeyi kolaylaştırır.*
+
+*MyComponent.razor*
+```html
+<p>@message</p>
+```
